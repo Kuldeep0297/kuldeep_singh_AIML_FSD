@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Time Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    td {
+      background-color: #fdfdfd;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f2f6ff;
+    }
+
+    .break {
+      background-color: #ffe8a1;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Class Time Table</h1>
+
+  <table>
+    <tr>
+      <th>Day/Time</th>
+      <th>9:00-10:00</th>
+      <th>10:00-11:00</th>
+      <th>11:00-12:00</th>
+      <th>12:00-1:00</th>
+      <th >1:00-2:00</th>
+      
+      <th>2:00-3:00</th>
+      <th>3:00-4:00</th>
+      <th>4:00-5:00</th>
+    </tr>
+
+    <tr>
+      <td>Monday</td>
+      <td>VA</td>
+      <td>Soft Computing</td>
+      <td>FSD</td>
+      <td>Data base management system</td>
+      <th rowspan="6">BREAK</th> 
+      <td>DAA</td>
+      <td>DSA</td>
+    <td>Artificial<br>Intelligence</td>
+      
+    </tr>
+
+    <tr>
+      <td>Tuesday</td>
+      <td>FSD</td>
+      <td>DAA</td>
+      <td>Artificial Intelligence</td>
+      <td>Data base management</td>
+     
+      <td>Soft Computing</td>
+      <td>QA/LR</td>
+      <td>AI Lab</td>
+      
+    </tr>
+
+    
+
+    <tr>
+      <td>Wednesday</td>
+      <td>Artificial Intelligence</td>
+      <td>Soft Computing</td>
+      <td>DAA</td>
+      <td>AI Lab</td>
+            
+
+      <td colspan="2">FSD</td>
+      <td>VA</td>
+      
+    </tr>
+
+    <tr>
+      <td>Thursday</td>
+      <td>Artificial Intelligence</td>
+      <td>Soft Computing</td>
+      <td>DAA</td>
+      <td>FSD</td>
+    
+      <td colspan="3">DSA</td>
+      
+       
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>DAA</td>
+      <td colspan="3">DSA</td>
+         
+      <td>object oriented<br> with C++</td>  
+ 
+       <td colspan="2">AI Lab</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>DAA</td>
+      <td colspan="2">FSD</td>
+      
+      <td>soft Computing</td>
+       
+      <td colspan="2">AI Lab</td>
+       <td>Soft Computing</td>
+    </tr>
+    
+  </table>
+
+</body>
+</html>
